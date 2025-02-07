@@ -30,6 +30,9 @@
 # Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 #
+# ​​​​​Changes from Qualcomm Innovation Center, Inc. are provided under the following license:
+# Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
 
 attribute vendor_hal_hbtp;
 attribute vendor_hal_hbtp_client;
@@ -372,3 +375,8 @@ attribute vendor_hal_qvirtvendor_server;
 attribute vendor_hal_snapx_service_qti;
 attribute vendor_hal_snapx_service_qti_client;
 attribute vendor_hal_snapx_service_qti_server;
+
+
+attribute vendor_hal_imsvthal;
+attribute vendor_hal_imsvthal_client;
+attribute vendor_hal_imsvthal_server;
