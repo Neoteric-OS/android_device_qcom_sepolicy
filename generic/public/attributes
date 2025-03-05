@@ -376,7 +376,11 @@ attribute vendor_hal_snapx_service_qti;
 attribute vendor_hal_snapx_service_qti_client;
 attribute vendor_hal_snapx_service_qti_server;
 
-
 attribute vendor_hal_imsvthal;
 attribute vendor_hal_imsvthal_client;
 attribute vendor_hal_imsvthal_server;
+
+# smcloader HAL
+attribute vendor_hal_smcloader;
+attribute vendor_hal_smcloader_client;
+attribute vendor_hal_smcloader_server;
