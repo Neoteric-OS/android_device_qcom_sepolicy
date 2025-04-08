@@ -445,3 +445,8 @@ attribute vendor_hal_powerstateutility_server;
 attribute hal_gamepad;
 attribute hal_gamepad_client;
 attribute hal_gamepad_server;
+
+# For QRS
+attribute vendor_hal_qrsloader;
+attribute vendor_hal_qrsloader_client;
+attribute vendor_hal_qrsloader_server;
