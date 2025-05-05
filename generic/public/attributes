@@ -186,6 +186,10 @@ attribute vendor_hal_hexlp;
 attribute vendor_hal_hexlp_client;
 attribute vendor_hal_hexlp_server;
 
+attribute vendor_hal_unsignedhexlp;
+attribute vendor_hal_unsignedhexlp_client;
+attribute vendor_hal_unsignedhexlp_server;
+
 attribute vendor_hal_qconfig;
 attribute vendor_hal_qconfig_client;
 attribute vendor_hal_qconfig_server;
