@@ -388,3 +388,8 @@ attribute vendor_hal_imsvthal_server;
 attribute vendor_hal_smcloader;
 attribute vendor_hal_smcloader_client;
 attribute vendor_hal_smcloader_server;
+
+#attributes for AVF QCVM Manager aidl
+attribute vendor_hal_avf_qcvm_qti;
+attribute vendor_hal_avf_qcvm_qti_client;
+attribute vendor_hal_avf_qcvm_qti_server;
