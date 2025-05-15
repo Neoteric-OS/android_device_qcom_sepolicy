@@ -186,6 +186,10 @@ attribute vendor_hal_hexlp;
 attribute vendor_hal_hexlp_client;
 attribute vendor_hal_hexlp_server;
 
+attribute vendor_hal_unsignedhexlp;
+attribute vendor_hal_unsignedhexlp_client;
+attribute vendor_hal_unsignedhexlp_server;
+
 attribute vendor_hal_qconfig;
 attribute vendor_hal_qconfig_client;
 attribute vendor_hal_qconfig_server;
@@ -298,6 +302,10 @@ attribute hal_wificfr;
 attribute hal_wificfr_client;
 attribute hal_wificfr_server;
 
+attribute vendor_hal_umd;
+attribute vendor_hal_umd_client;
+attribute vendor_hal_umd_server;
+
 attribute vendor_hal_sxrservice_qti;
 attribute vendor_hal_sxrservice_qti_client;
 attribute vendor_hal_sxrservice_qti_server;
@@ -384,3 +392,8 @@ attribute vendor_hal_imsvthal_server;
 attribute vendor_hal_smcloader;
 attribute vendor_hal_smcloader_client;
 attribute vendor_hal_smcloader_server;
+
+#attributes for AVF QCVM Manager aidl
+attribute vendor_hal_avf_qcvm_qti;
+attribute vendor_hal_avf_qcvm_qti_client;
+attribute vendor_hal_avf_qcvm_qti_server;
