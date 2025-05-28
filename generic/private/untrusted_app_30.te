@@ -35,3 +35,6 @@ hal_client_domain(untrusted_app_30, vendor_hal_qspmhal)
 
 # allow app to be a client of DSP HAL
 hal_client_domain(untrusted_app_30, vendor_hal_dspmanager)
+
+# allow 3rd party app to access unsigned Hexlp service
+hal_client_domain(untrusted_app_30, vendor_hal_unsignedhexlp)
