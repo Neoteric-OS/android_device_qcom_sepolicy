@@ -402,3 +402,8 @@ attribute vendor_hal_avf_qcvm_qti_server;
 attribute vendor_framework_utils_app;
 attribute vendor_framework_utils_app_client;
 attribute vendor_framework_utils_app_server;
+
+# For BluetoothFmd
+attribute vendor_hal_bluetooth_fmd;
+attribute vendor_hal_bluetooth_fmd_client;
+attribute vendor_hal_bluetooth_fmd_server;
