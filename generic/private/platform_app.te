@@ -63,3 +63,6 @@ get_prop(platform_app, radio_cdma_ecm_prop)
 unix_socket_connect(platform_app, vendor_dpmtcm, vendor_tcmd);
 
 qesdk_app_access(platform_app);
+
+# allow platform_app to be a client of display capture service
+hal_client_domain(platform_app, vendor_hal_display_capture_service_qti)
