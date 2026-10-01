@@ -38,6 +38,9 @@ hal_client_domain(system_server , vendor_hal_imsvthal);
 # Allow system_server to access qesdhal
 hal_client_domain(system_server, vendor_hal_qesdhal);
 
+# Allow system_server to access snapx hal
+hal_client_domain(system_server, vendor_hal_snapx_service_qti);
+
 allow system_server vendor_seempdw_socket:sock_file write;
 
 binder_call(system_server, vendor_seempd)
